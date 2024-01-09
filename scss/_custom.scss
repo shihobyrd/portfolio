@@ -1,0 +1,17 @@
+// Theme color
+$blue: #1FADDA;
+$bg-white: #fff;
+$bg-blue: #19353E;
+
+// White and gray colors
+$white: #fff;
+$gray-500: #555555;
+$gray-700: #252525;
+$black: #000;
+
+$primary: $blue;
+$light-bg: $bg-white;
+$dark--bg: $bg-dark;
+
+// Import Bootstrap 5
+@import "../node_modules/bootstrap/scss/bootstrap.scss"
