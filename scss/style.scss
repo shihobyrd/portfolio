@@ -1,1 +1,15 @@
 @use 'custom';
+
+// Import the components
+@use 'components/animations';
+@use 'components/buttons';
+@use 'components/mixins';
+@use 'components/typography';
+
+// Import the sections
+@use 'sections/about';
+@use 'sections/contact';
+@use 'sections/footer';
+@use 'sections/hero';
+@use 'sections/navbar';
+@use 'sections/projects';
