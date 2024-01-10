@@ -11863,6 +11863,7 @@ textarea.form-control-lg {
   font-size: 2rem;
   font-weight: 600;
   color: #252525;
+  line-height: 2.375rem;
 }
 
 .menu li {
@@ -11872,6 +11873,7 @@ textarea.form-control-lg {
   font-size: 1.125rem;
   color: #252525;
   font-weight: 400;
+  line-height: 1.375rem;
 }
 
 /*# sourceMappingURL=style.css.map */
