@@ -11864,16 +11864,30 @@ textarea.form-control-lg {
   font-weight: 600;
   color: #252525;
   line-height: 2.375rem;
+  padding: 0.5rem 0;
+  transition: color 0.18s;
+}
+.navbar-brand:hover {
+  color: #1FADDA;
+  transition: color 0.18s ease-in-out;
 }
 
 .menu li {
   padding: 0 1.25rem;
+}
+.menu li.social-icons {
+  padding: 0 0.5rem;
 }
 .menu li a {
   font-size: 1.125rem;
   color: #252525;
   font-weight: 400;
   line-height: 1.375rem;
+  transition: color 0.18s;
+}
+.menu li a:hover {
+  color: #1FADDA;
+  transition: color 0.18s ease-in-out;
 }
 
 /*# sourceMappingURL=style.css.map */
