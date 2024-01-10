@@ -1,0 +1,25 @@
+@use '../custom' as *;
+
+.navbar {
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: 600;
+    color: $gray-700;
+}
+
+.menu {
+
+    li {
+        padding: 0 1.25rem;
+
+        a {
+            font-size: 1.125rem;
+            color: $gray-700;
+            font-weight: 400;
+        }
+    }
+
+}
