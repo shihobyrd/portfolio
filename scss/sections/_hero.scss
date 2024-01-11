@@ -1,0 +1,121 @@
+@use '../custom' as *;
+
+.hero-section {
+
+    .row {
+        padding-top: 4.5rem;
+    }
+
+    .hero-title {
+        font-size: 4rem;
+        line-height: 4.25rem;
+        color: $gray-700;
+    }
+
+    .hero-text {
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+        color: $gray-500;
+    }
+
+    .divider {
+        border-bottom: 1px solid rgba(37, 37, 37, 0.5);
+        padding-top: 9.375rem;
+    }
+
+}
+
+@include media-breakpoint-only (lg) {
+    .hero-section {
+        .hero-title {
+            font-size: 3.25rem;
+            line-height: 3.5rem;
+        }
+
+        .hero-text {
+            font-size: 1.25rem;
+            line-height: 2rem;
+        }
+
+        .divider {
+            padding-top: 6.25rem;
+        }
+    }
+}
+
+@include media-breakpoint-only (md) {
+
+    .hero-section {
+        .hero-title {
+            font-size: 3rem;
+            line-height: 3.25rem;
+        }
+
+        .hero-text {
+            font-size: 1.125rem;
+            line-height: 1.875rem;
+        }
+
+        .divider {
+            padding-top: 5rem;
+        }
+    }
+}
+
+@include media-breakpoint-down (md) {
+
+    .hero-section {
+        .row {
+            padding-top: 1rem;
+        }
+
+        .hero-title {
+            font-size: 2.125rem;
+            line-height: 2.375rem;
+            margin-top: -4rem;
+        }
+
+        .hero-text {
+            font-size: 1.125rem;
+            line-height: 1.875rem;
+        }
+
+        .image-box {
+            max-width: 17.1875rem;
+        }
+
+        .divider {
+            padding-top: 2.5rem;
+        }
+    }
+}
+
+@include media-breakpoint-down (sm) {
+    .hero-section {
+
+        .image-box {
+            max-width: 15rem;
+        }
+
+        .hero-title {
+            font-size: 2rem;
+            line-height: 2.375rem;
+            margin-top: -5rem;
+        }
+
+        .divider {
+            padding-top: 2rem;
+            padding-right: calc(var(--bs-gutter-x) * 0.5);
+            padding-left: calc(var(--bs-gutter-x) * 0.5);
+        }
+    }
+}
+
+@media (max-width: 460px) {
+    .hero-section {
+        .hero-title {
+            max-width: 15rem;
+            margin-top: -7rem;
+        }
+    }
+}
