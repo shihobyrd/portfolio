@@ -1,6 +1,10 @@
 @use '../custom' as *;
 
 .projects {
+    .container {
+        padding-top: 9.375rem;
+        padding-bottom: 9.375rem;
+    }
 
     source,
     img {
@@ -19,5 +23,35 @@
         height: 636px;
         background-color: #8FD6EC;
         border-radius: 20px;
+    }
+}
+
+@include media-breakpoint-only (lg) {
+
+    .projects {
+        .container {
+            padding-top: 6.25rem;
+            padding-bottom: 6.25rem;
+        }
+    }
+}
+
+@include media-breakpoint-only (md) {
+    .projects {
+
+        .container {
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+        }
+    }
+}
+
+@include media-breakpoint-down (md) {
+
+    .projects {
+        .container {
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+        }
     }
 }

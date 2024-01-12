@@ -12170,6 +12170,10 @@ textarea.form-control-lg {
     font-size: 1.75rem;
   }
 }
+.projects .container {
+  padding-top: 9.375rem;
+  padding-bottom: 9.375rem;
+}
 .projects source,
 .projects img {
   border-radius: 20px;
@@ -12185,6 +12189,25 @@ textarea.form-control-lg {
   height: 636px;
   background-color: #8FD6EC;
   border-radius: 20px;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .projects .container {
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .projects .container {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+@media (max-width: 767.98px) {
+  .projects .container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
