@@ -12,13 +12,28 @@
         }
     }
 
-    .section-titles {
+    .text-container {
+        padding-left: 4rem;
+    }
+
+    .section-headings {
         margin-bottom: 2rem;
     }
 
     .section-text {
         column-count: 2;
-        column-gap: 2.5rem;
+        column-gap: 3rem;
+    }
+
+    .skill-section {
+        margin-top: 4.6875rem;
+        background-color: rgba($color: $primary, $alpha: .12);
+        border-radius: 12px;
+        padding: 4.6875rem;
+    }
+
+    .tiny-headings {
+        margin-bottom: 1.125rem;
     }
 
 }

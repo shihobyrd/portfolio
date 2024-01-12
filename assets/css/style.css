@@ -11877,16 +11877,32 @@ textarea.form-control-lg {
     padding: 0.75rem 1rem;
   }
 }
-.section-titles {
+.section-headings {
   font-size: 3.25rem;
   line-height: 3.875rem;
   font-weight: 700;
+  color: #252525;
 }
 
 .section-text {
   font-size: 1.25rem;
   line-height: 2rem;
   font-weight: 300;
+  color: #555555;
+}
+
+.sub-headings {
+  font-size: 2.75rem;
+  line-height: 3.3125rem;
+  font-weight: 400;
+  color: #252525;
+}
+
+.tiny-headings {
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  font-weight: 700;
+  color: #1FADDA;
 }
 
 .about .container {
@@ -11896,12 +11912,24 @@ textarea.form-control-lg {
 .about .image-box img {
   max-width: 15.625rem;
 }
-.about .section-titles {
+.about .text-container {
+  padding-left: 4rem;
+}
+.about .section-headings {
   margin-bottom: 2rem;
 }
 .about .section-text {
   column-count: 2;
-  column-gap: 2.5rem;
+  column-gap: 3rem;
+}
+.about .skill-section {
+  margin-top: 4.6875rem;
+  background-color: rgba(31, 173, 218, 0.12);
+  border-radius: 12px;
+  padding: 4.6875rem;
+}
+.about .tiny-headings {
+  margin-bottom: 1.125rem;
 }
 
 .hero-section .row {

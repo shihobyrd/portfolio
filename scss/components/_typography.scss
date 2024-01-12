@@ -1,13 +1,29 @@
 @use '../custom' as *;
 
-.section-titles {
+.section-headings {
     font-size: 3.25rem;
     line-height: 3.875rem;
     font-weight: 700;
+    color: $gray-700;
 }
 
 .section-text {
     font-size: 1.25rem;
     line-height: 2rem;
     font-weight: 300;
+    color: $gray-500;
+}
+
+.sub-headings {
+    font-size: 2.75rem;
+    line-height: 3.3125rem;
+    font-weight: 400;
+    color: $gray-700;
+}
+
+.tiny-headings {
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    font-weight: 700;
+    color: $primary;
 }
