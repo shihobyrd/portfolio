@@ -1,5 +1,21 @@
 @use '../custom' as *;
 
+.hero-section {
+    .hero-title {
+        font-size: 4rem;
+        line-height: 4.25rem;
+        font-weight: 700;
+        color: $gray-700;
+    }
+
+    .hero-text {
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+        font-weight: 300;
+        color: $gray-500;
+    }
+}
+
 .section-headings {
     font-size: 3.25rem;
     line-height: 3.875rem;
@@ -35,8 +51,23 @@
     color: $gray-700;
 }
 
+@include media-breakpoint-only (lg) {
+
+    .hero-section {
+        .hero-title {
+            font-size: 3.25rem;
+            line-height: 3.5rem;
+        }
+
+        .hero-text {
+            font-size: 1.25rem;
+            line-height: 2rem;
+        }
+    }
+}
 
 @include media-breakpoint-between (md, lg) {
+
     .section-headings {
         font-size: 2.75rem;
         line-height: 3.3125rem;
@@ -51,16 +82,40 @@
         font-size: 2.5rem;
         line-height: 3rem;
     }
+}
 
+@include media-breakpoint-only (md) {
+
+    .hero-section {
+        .hero-title {
+            font-size: 3rem;
+            line-height: 3.25rem;
+        }
+
+        .hero-text {
+            font-size: 1.125rem;
+            line-height: 1.875rem;
+        }
+    }
 }
 
 @include media-breakpoint-down (md) {
+
+    .hero-section {
+        .hero-text {
+            font-size: 1.125rem;
+            line-height: 1.875rem;
+        }
+    }
+
     .section-headings {
         font-size: 1.75rem;
         line-height: 2.125rem;
     }
 
-    .section-text {
+    .section-text,
+    .tiny-headings,
+    .tiny-text {
         font-size: 1rem;
         line-height: 1.75rem;
     }
@@ -69,5 +124,33 @@
         font-size: 1.5rem;
         line-height: 3rem;
     }
+}
 
+@include media-breakpoint-only (sm) {
+
+    .hero-section {
+        .hero-title {
+            font-size: 2.125rem;
+            line-height: 2.375rem;
+        }
+    }
+}
+
+@include media-breakpoint-down (sm) {
+
+    .hero-section {
+        .hero-title {
+            font-size: 2rem;
+            line-height: 2.375rem;
+        }
+    }
+}
+
+@media (max-width: 460px) {
+
+    .hero-section {
+        .hero-title {
+            max-width: 15rem;
+        }
+    }
 }

@@ -11877,6 +11877,19 @@ textarea.form-control-lg {
     padding: 0.75rem 1rem;
   }
 }
+.hero-section .hero-title {
+  font-size: 4rem;
+  line-height: 4.25rem;
+  font-weight: 700;
+  color: #252525;
+}
+.hero-section .hero-text {
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  font-weight: 300;
+  color: #555555;
+}
+
 .section-headings {
   font-size: 3.25rem;
   line-height: 3.875rem;
@@ -11912,6 +11925,16 @@ textarea.form-control-lg {
   color: #252525;
 }
 
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .hero-section .hero-title {
+    font-size: 3.25rem;
+    line-height: 3.5rem;
+  }
+  .hero-section .hero-text {
+    font-size: 1.25rem;
+    line-height: 2rem;
+  }
+}
 @media (min-width: 768px) and (max-width: 991.98px) {
   .section-headings {
     font-size: 2.75rem;
@@ -11926,18 +11949,51 @@ textarea.form-control-lg {
     line-height: 3rem;
   }
 }
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .hero-section .hero-title {
+    font-size: 3rem;
+    line-height: 3.25rem;
+  }
+  .hero-section .hero-text {
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+  }
+}
 @media (max-width: 767.98px) {
+  .hero-section .hero-text {
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+  }
   .section-headings {
     font-size: 1.75rem;
     line-height: 2.125rem;
   }
-  .section-text {
+  .section-text,
+  .tiny-headings,
+  .tiny-text {
     font-size: 1rem;
     line-height: 1.75rem;
   }
   .sub-headings {
     font-size: 1.5rem;
     line-height: 3rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .hero-section .hero-title {
+    font-size: 2.125rem;
+    line-height: 2.375rem;
+  }
+}
+@media (max-width: 575.98px) {
+  .hero-section .hero-title {
+    font-size: 2rem;
+    line-height: 2.375rem;
+  }
+}
+@media (max-width: 460px) {
+  .hero-section .hero-title {
+    max-width: 15rem;
   }
 }
 .about .container {
@@ -12024,19 +12080,12 @@ textarea.form-control-lg {
   .about .sub-headings {
     margin-bottom: 1.875rem;
   }
+  .about .tiny-headings {
+    margin-bottom: 0.25rem;
+  }
 }
 .hero-section .row {
   padding-top: 4.5rem;
-}
-.hero-section .hero-title {
-  font-size: 4rem;
-  line-height: 4.25rem;
-  color: #252525;
-}
-.hero-section .hero-text {
-  font-size: 1.5rem;
-  line-height: 2.25rem;
-  color: #555555;
 }
 .hero-section .divider {
   border-bottom: 1px solid rgba(37, 37, 37, 0.5);
@@ -12044,27 +12093,11 @@ textarea.form-control-lg {
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  .hero-section .hero-title {
-    font-size: 3.25rem;
-    line-height: 3.5rem;
-  }
-  .hero-section .hero-text {
-    font-size: 1.25rem;
-    line-height: 2rem;
-  }
   .hero-section .divider {
     padding-top: 6.25rem;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .hero-section .hero-title {
-    font-size: 3rem;
-    line-height: 3.25rem;
-  }
-  .hero-section .hero-text {
-    font-size: 1.125rem;
-    line-height: 1.875rem;
-  }
   .hero-section .divider {
     padding-top: 5rem;
   }
@@ -12074,13 +12107,7 @@ textarea.form-control-lg {
     padding-top: 1rem;
   }
   .hero-section .hero-title {
-    font-size: 2.125rem;
-    line-height: 2.375rem;
     margin-top: -4rem;
-  }
-  .hero-section .hero-text {
-    font-size: 1.125rem;
-    line-height: 1.875rem;
   }
   .hero-section .image-box {
     max-width: 17.1875rem;
@@ -12094,8 +12121,6 @@ textarea.form-control-lg {
     max-width: 15rem;
   }
   .hero-section .hero-title {
-    font-size: 2rem;
-    line-height: 2.375rem;
     margin-top: -5rem;
   }
   .hero-section .divider {
@@ -12104,7 +12129,6 @@ textarea.form-control-lg {
 }
 @media (max-width: 460px) {
   .hero-section .hero-title {
-    max-width: 15rem;
     margin-top: -7rem;
   }
 }
