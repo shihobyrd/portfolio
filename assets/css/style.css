@@ -12205,11 +12205,17 @@ textarea.form-control-lg {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
   }
+  .projects .container .heading-container {
+    padding-bottom: 3.125rem;
+  }
 }
 @media (max-width: 767.98px) {
   .projects .container {
     padding-top: 1rem;
     padding-bottom: 1rem;
+  }
+  .projects .container .heading-container {
+    padding-bottom: 1.875rem;
   }
 }
 
