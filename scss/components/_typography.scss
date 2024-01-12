@@ -1,0 +1,13 @@
+@use '../custom' as *;
+
+.section-titles {
+    font-size: 3.25rem;
+    line-height: 3.875rem;
+    font-weight: 700;
+}
+
+.section-text {
+    font-size: 1.25rem;
+    line-height: 2rem;
+    font-weight: 300;
+}

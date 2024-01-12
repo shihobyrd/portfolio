@@ -1,0 +1,24 @@
+@use '../custom' as *;
+
+.about {
+    .container {
+        padding-top: 9.375rem;
+        padding-bottom: 9.375rem;
+    }
+
+    .image-box {
+        img {
+            max-width: 15.625rem;
+        }
+    }
+
+    .section-titles {
+        margin-bottom: 2rem;
+    }
+
+    .section-text {
+        column-count: 2;
+        column-gap: 2.5rem;
+    }
+
+}
