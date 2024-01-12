@@ -11905,6 +11905,13 @@ textarea.form-control-lg {
   color: #1FADDA;
 }
 
+.tiny-text {
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  font-weight: 300;
+  color: #252525;
+}
+
 .about .container {
   padding-top: 9.375rem;
   padding-bottom: 9.375rem;
