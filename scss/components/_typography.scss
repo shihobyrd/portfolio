@@ -88,6 +88,13 @@
         font-size: 2.5rem;
         line-height: 3rem;
     }
+
+    .projects {
+        .sub-headings {
+            font-size: 2.75rem;
+            line-height: 3.3125rem;
+        }
+    }
 }
 
 @include media-breakpoint-only (md) {
@@ -103,6 +110,7 @@
             line-height: 1.875rem;
         }
     }
+
 }
 
 @include media-breakpoint-down (md) {
@@ -130,6 +138,13 @@
         font-size: 1.5rem;
         line-height: 3rem;
     }
+
+    .projects {
+        .sub-headings {
+            font-size: 2.75rem;
+            line-height: 3.3125rem;
+        }
+    }
 }
 
 @include media-breakpoint-only (sm) {
@@ -148,6 +163,13 @@
         .hero-title {
             font-size: 2rem;
             line-height: 2.375rem;
+        }
+    }
+
+    .projects {
+        .sub-headings {
+            font-size: 1.75rem;
+            line-height: 2.125rem;
         }
     }
 }
