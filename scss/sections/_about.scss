@@ -9,6 +9,7 @@
     .image-box {
         img {
             max-width: 15.625rem;
+            width: auto;
         }
     }
 
@@ -33,7 +34,92 @@
     }
 
     .tiny-headings {
-        margin-bottom: 1.125rem;
+        margin-bottom: 0.75rem;
+    }
+}
+
+@include media-breakpoint-only (lg) {
+    .about {
+        .container {
+            padding-top: 6.25rem;
+            padding-bottom: 6.25rem;
+        }
+
+        .image-box {
+            img {
+                max-width: 12rem;
+                width: auto;
+            }
+        }
+    }
+}
+
+@include media-breakpoint-between (md, xl) {
+    .about {
+
+        .skill-section {
+            margin-top: 3.125rem;
+            padding: 3.125rem;
+        }
     }
 
+}
+
+@include media-breakpoint-only (md) {
+    .about {
+        .container {
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+        }
+
+        .image-box {
+            img {
+                max-width: 10rem;
+                width: auto;
+            }
+        }
+
+        .section-text {
+            column-count: 1;
+        }
+
+        .sub-headings {
+            margin-bottom: 1.875rem;
+        }
+
+    }
+}
+
+@include media-breakpoint-down (md) {
+    .about {
+        .container {
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+        }
+
+        .image-box {
+            display: none;
+        }
+
+        .text-container {
+            padding-left: .75rem;
+        }
+
+        .skill-section {
+            margin: 1.875rem 0.1rem;
+            padding: 1.875rem;
+        }
+
+        .section-headings {
+            margin-bottom: 1.25rem;
+        }
+
+        .section-text {
+            column-count: 1;
+        }
+
+        .sub-headings {
+            margin-bottom: 1.875rem;
+        }
+    }
 }

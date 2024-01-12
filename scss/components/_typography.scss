@@ -34,3 +34,40 @@
     font-weight: 300;
     color: $gray-700;
 }
+
+
+@include media-breakpoint-between (md, lg) {
+    .section-headings {
+        font-size: 2.75rem;
+        line-height: 3.3125rem;
+    }
+
+    .section-text {
+        font-size: 1.125rem;
+        line-height: 1.875rem;
+    }
+
+    .sub-headings {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+
+}
+
+@include media-breakpoint-down (md) {
+    .section-headings {
+        font-size: 1.75rem;
+        line-height: 2.125rem;
+    }
+
+    .section-text {
+        font-size: 1rem;
+        line-height: 1.75rem;
+    }
+
+    .sub-headings {
+        font-size: 1.5rem;
+        line-height: 3rem;
+    }
+
+}
