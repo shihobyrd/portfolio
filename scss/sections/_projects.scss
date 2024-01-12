@@ -1,9 +1,14 @@
 @use '../custom' as *;
 
 .projects {
+
     .container {
-        padding-top: 9.375rem;
-        padding-bottom: 9.375rem;
+        padding-top: 4.6875rem;
+        padding-bottom: 4.6875rem;
+
+        .heading-container {
+            padding-bottom: 4.6875rem;
+        }
     }
 
     source,
@@ -30,8 +35,8 @@
 
     .projects {
         .container {
-            padding-top: 6.25rem;
-            padding-bottom: 6.25rem;
+            padding-top: 3.125rem;
+            padding-bottom: 3.125rem;
         }
     }
 }
@@ -40,8 +45,8 @@
     .projects {
 
         .container {
-            padding-top: 5rem;
-            padding-bottom: 5rem;
+            padding-top: 2.5rem;
+            padding-bottom: 2.5rem;
         }
     }
 }
@@ -50,8 +55,8 @@
 
     .projects {
         .container {
-            padding-top: 2rem;
-            padding-bottom: 2rem;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
         }
     }
 }

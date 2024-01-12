@@ -12003,7 +12003,7 @@ textarea.form-control-lg {
 }
 .about .container {
   padding-top: 9.375rem;
-  padding-bottom: 9.375rem;
+  padding-bottom: 4.6875rem;
 }
 .about .image-box img {
   max-width: 15.625rem;
@@ -12032,7 +12032,7 @@ textarea.form-control-lg {
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .about .container {
     padding-top: 6.25rem;
-    padding-bottom: 6.25rem;
+    padding-bottom: 3.125rem;
   }
   .about .image-box img {
     max-width: 12rem;
@@ -12048,7 +12048,7 @@ textarea.form-control-lg {
 @media (min-width: 768px) and (max-width: 991.98px) {
   .about .container {
     padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-bottom: 2.5rem;
   }
   .about .image-box img {
     max-width: 10rem;
@@ -12064,7 +12064,7 @@ textarea.form-control-lg {
 @media (max-width: 767.98px) {
   .about .container {
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
   }
   .about .image-box {
     display: none;
@@ -12171,8 +12171,11 @@ textarea.form-control-lg {
   }
 }
 .projects .container {
-  padding-top: 9.375rem;
-  padding-bottom: 9.375rem;
+  padding-top: 4.6875rem;
+  padding-bottom: 4.6875rem;
+}
+.projects .container .heading-container {
+  padding-bottom: 4.6875rem;
 }
 .projects source,
 .projects img {
@@ -12193,20 +12196,20 @@ textarea.form-control-lg {
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .projects .container {
-    padding-top: 6.25rem;
-    padding-bottom: 6.25rem;
+    padding-top: 3.125rem;
+    padding-bottom: 3.125rem;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .projects .container {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
   }
 }
 @media (max-width: 767.98px) {
   .projects .container {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 }
 
