@@ -9,6 +9,10 @@
         .heading-container {
             padding-bottom: 4.6875rem;
         }
+
+        .cards {
+            padding-bottom: 4.6875rem;
+        }
     }
 
     source,
@@ -21,6 +25,41 @@
             padding-top: 2rem;
         }
     }
+
+    .brand-color-borders {
+        width: 50px;
+        height: 5px;
+    }
+
+    .brand-color-borders {
+        &.adobe {
+            background-color: #EB1000;
+        }
+
+        &.natgeo {
+            background-color: #FFCC00;
+        }
+
+        &.nytimes {
+            background-color: #000;
+        }
+
+        &.spotify {
+            background-color: #1ED760;
+        }
+
+        &.portfolio {
+            background-color: $primary;
+        }
+    }
+
+    .tiny-headings {
+        &.tools {
+            margin-bottom: 0.75rem;
+        }
+    }
+
+    // - - - - - - - Delete later - - - - - - - //
 
     .placement-container-spotify {
         width: 100%;
@@ -35,6 +74,8 @@
         background-color: #8FD6EC;
         border-radius: 20px;
     }
+
+    // - - - - - - - Delete later - - - - - - - //
 }
 
 @include media-breakpoint-only (lg) {
@@ -70,6 +111,10 @@
 
             .heading-container {
                 padding-bottom: 1.875rem;
+            }
+
+            .cards {
+                padding-bottom: 3.125rem;
             }
         }
 

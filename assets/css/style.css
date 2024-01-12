@@ -11929,9 +11929,6 @@ textarea.form-control-lg {
 .projects .tiny-headings {
   color: #252525;
 }
-.projects .tiny-headings.types {
-  padding-top: 2rem;
-}
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .hero-section .hero-title {
@@ -12180,12 +12177,37 @@ textarea.form-control-lg {
 .projects .container .heading-container {
   padding-bottom: 4.6875rem;
 }
+.projects .container .cards {
+  padding-bottom: 4.6875rem;
+}
 .projects source,
 .projects img {
   border-radius: 20px;
 }
 .projects .tiny-headings.types {
   padding-top: 2rem;
+}
+.projects .brand-color-borders {
+  width: 50px;
+  height: 5px;
+}
+.projects .brand-color-borders.adobe {
+  background-color: #EB1000;
+}
+.projects .brand-color-borders.natgeo {
+  background-color: #FFCC00;
+}
+.projects .brand-color-borders.nytimes {
+  background-color: #000;
+}
+.projects .brand-color-borders.spotify {
+  background-color: #1ED760;
+}
+.projects .brand-color-borders.portfolio {
+  background-color: #1FADDA;
+}
+.projects .tiny-headings.tools {
+  margin-bottom: 0.75rem;
 }
 .projects .placement-container-spotify {
   width: 100%;
@@ -12222,6 +12244,9 @@ textarea.form-control-lg {
   }
   .projects .container .heading-container {
     padding-bottom: 1.875rem;
+  }
+  .projects .container .cards {
+    padding-bottom: 3.125rem;
   }
   .projects .tiny-headings.types {
     padding-top: 1rem;
