@@ -55,6 +55,13 @@
     .tiny-headings {
         color: $gray-700;
     }
+
+    .tiny-headings {
+        &.types {
+            padding-top: 2rem;
+        }
+    }
+
 }
 
 @include media-breakpoint-only (lg) {

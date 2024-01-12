@@ -16,6 +16,12 @@
         border-radius: 20px;
     }
 
+    .tiny-headings {
+        &.types {
+            padding-top: 2rem;
+        }
+    }
+
     .placement-container-spotify {
         width: 100%;
         height: 636px;
@@ -64,6 +70,12 @@
 
             .heading-container {
                 padding-bottom: 1.875rem;
+            }
+        }
+
+        .tiny-headings {
+            &.types {
+                padding-top: 1rem;
             }
         }
     }
