@@ -51,6 +51,12 @@
     color: $gray-700;
 }
 
+.projects {
+    .tiny-headings {
+        color: $gray-700;
+    }
+}
+
 @include media-breakpoint-only (lg) {
 
     .hero-section {
