@@ -1,0 +1,23 @@
+@use '../custom' as *;
+
+.projects {
+
+    source,
+    img {
+        border-radius: 20px;
+    }
+
+    .placement-container-spotify {
+        width: 100%;
+        height: 636px;
+        background-color: #8EEBAF;
+        border-radius: 20px;
+    }
+
+    .placement-container-portfolio {
+        width: 100%;
+        height: 636px;
+        background-color: #8FD6EC;
+        border-radius: 20px;
+    }
+}
