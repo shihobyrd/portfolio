@@ -7,6 +7,28 @@
         padding-bottom: 4.6875rem;
     }
 
+    .filter-btn {
+        font-size: 1.25rem;
+        border: none;
+        font-weight: 600;
+        color: rgba($color: $gray-700, $alpha: 0.5);
+        border-radius: 0;
+
+        &:hover {
+            color: $primary;
+        }
+
+        &.active {
+            color: $primary;
+            font-weight: 700;
+            border-bottom: 3px solid $primary;
+        }
+    }
+
+    .itemBox.hide {
+        display: none;
+    }
+
     .heading-container {
         padding-bottom: 4.6875rem;
     }
@@ -108,6 +130,10 @@
         .container {
             padding-top: 1rem;
             padding-bottom: 1rem;
+        }
+
+        .filter-btn {
+            font-size: 1.125rem;
         }
 
         .heading-container {

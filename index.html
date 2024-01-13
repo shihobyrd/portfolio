@@ -136,17 +136,17 @@
     <section id="projects" class="projects">
         <div class="container">
             <div class="row heading-container">
-                <div class="col-6">
-                    <h2 class="section-headings">Projects</h2>
+                <div class="col-md-6 col-12">
+                    <h2 class="section-headings mb-md-0 mb-4">Projects</h2>
                 </div>
-                <div class="col-6 text-end">
-                    <button type="button" class="btn">All</button>
-                    <button type="button" class="btn">Emails</button>
-                    <button type="button" class="btn">Websites</button>
+                <div class="col-md-6 col-12 text-md-end">
+                    <button type="button" class="btn filter-btn active" data-filter="all">All</button>
+                    <button type="button" class="btn filter-btn mx-lg-5 mx-4" data-filter="emails">Emails</button>
+                    <button type="button" class="btn filter-btn" data-filter="websites">Websites</button>
                 </div>
             </div>
             <div class="row align-items-start">
-                <div class="col-lg-6 col-12 cards">
+                <div class="col-lg-6 col-12 cards itemBox" data-item="emails">
                     <picture>
                         <source type="image/webp" srcset="images/webp/Adobe-Transactional-Email.webp">
                         <img src="images/webp/Adobe - Transactional Email.png" alt="screenshots of mobile and desktop email from Adobe" class="img-fluid">
@@ -169,7 +169,7 @@
                         <button type="button" class="btn btn-outline-dark">Code</button>
                     </div>
                 </div>
-                <div class="col-lg-6 col-12 cards">
+                <div class="col-lg-6 col-12 cards itemBox" data-item="emails">
                     <picture>
                         <source type="image/webp" srcset="images/webp/National-Geographic-Newsletter.webp">
                         <img src="images/webp/National Geographic - Newsletter.png" alt="screenshots of mobile and desktop email from National Geographic" class="img-fluid">
@@ -192,7 +192,7 @@
                         <button type="button" class="btn btn-outline-dark">Code</button>
                     </div>
                 </div>
-                <div class="col-lg-6 col-12 cards">
+                <div class="col-lg-6 col-12 cards itemBox" data-item="emails">
                     <picture>
                         <source type="image/webp" srcset="images/webp/The-New-York-Times-Newsletter.webp">
                         <img src="images/webp/The New York Times - Newsletter.png" alt="screenshots of mobile and desktop email from the New York Times" class="img-fluid">
@@ -215,7 +215,7 @@
                         <button type="button" class="btn btn-outline-dark">Code</button>
                     </div>
                 </div>
-                <div class="col-lg-6 col-12 cards">
+                <div class="col-lg-6 col-12 cards itemBox" data-item="websites">
                     <div class="placement-container-spotify"></div>
                     <h4 class="tiny-headings types mb-3">Recreated Landing Page</h4>
                     <h3 class="sub-headings mb-3">Spotify</h3>
@@ -235,7 +235,7 @@
                         <button type="button" class="btn btn-outline-dark">Code</button>
                     </div>
                 </div>
-                <div class="col-lg-6 col-12">
+                <div class="col-lg-6 col-12 itemBox" data-item="websites">
                     <div class="placement-container-portfolio"></div>
                     <h4 class="tiny-headings types mb-3">Website Design, Development, and Deployment</h4>
                     <h3 class="sub-headings mb-3">Shiho Byrd - Portfolio</h3>
@@ -251,7 +251,7 @@
                         </div>
                         <div class="col-sm-6 mt-3">
                             <h4 class="tiny-headings tools">Design Tools</h4>
-                            <span class="tiny-text">MJML</span>
+                            <span class="tiny-text">Figma</span>
                         </div>
                     </div>
                     <div class="d-block mt-3">
@@ -265,6 +265,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
             crossorigin="anonymous"></script>
+    <script src="filter.js" type="text/JavaScript"></script>
 </body>
 
 </html>

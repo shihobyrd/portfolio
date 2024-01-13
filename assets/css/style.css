@@ -12182,6 +12182,24 @@ textarea.form-control-lg {
   padding-top: 4.6875rem;
   padding-bottom: 4.6875rem;
 }
+.projects .filter-btn {
+  font-size: 1.25rem;
+  border: none;
+  font-weight: 600;
+  color: rgba(37, 37, 37, 0.5);
+  border-radius: 0;
+}
+.projects .filter-btn:hover {
+  color: #1FADDA;
+}
+.projects .filter-btn.active {
+  color: #1FADDA;
+  font-weight: 700;
+  border-bottom: 3px solid #1FADDA;
+}
+.projects .itemBox.hide {
+  display: none;
+}
 .projects .heading-container {
   padding-bottom: 4.6875rem;
 }
@@ -12249,6 +12267,9 @@ textarea.form-control-lg {
   .projects .container {
     padding-top: 1rem;
     padding-bottom: 1rem;
+  }
+  .projects .filter-btn {
+    font-size: 1.125rem;
   }
   .projects .heading-container {
     padding-bottom: 1.875rem;
