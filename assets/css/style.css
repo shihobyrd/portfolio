@@ -11988,8 +11988,8 @@ textarea.form-control-lg {
     line-height: 3rem;
   }
   .projects .sub-headings {
-    font-size: 2.75rem;
-    line-height: 3.3125rem;
+    font-size: 1.75rem;
+    line-height: 2.125rem;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -12002,10 +12002,6 @@ textarea.form-control-lg {
   .hero-section .hero-title {
     font-size: 2rem;
     line-height: 2.375rem;
-  }
-  .projects .sub-headings {
-    font-size: 1.75rem;
-    line-height: 2.125rem;
   }
 }
 @media (max-width: 460px) {
@@ -12186,10 +12182,10 @@ textarea.form-control-lg {
   padding-top: 4.6875rem;
   padding-bottom: 4.6875rem;
 }
-.projects .container .heading-container {
+.projects .heading-container {
   padding-bottom: 4.6875rem;
 }
-.projects .container .cards {
+.projects .cards {
   padding-bottom: 4.6875rem;
 }
 .projects source,
@@ -12245,7 +12241,7 @@ textarea.form-control-lg {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
   }
-  .projects .container .heading-container {
+  .projects .heading-container {
     padding-bottom: 3.125rem;
   }
 }
@@ -12254,10 +12250,10 @@ textarea.form-control-lg {
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
-  .projects .container .heading-container {
+  .projects .heading-container {
     padding-bottom: 1.875rem;
   }
-  .projects .container .cards {
+  .projects .cards {
     padding-bottom: 3.125rem;
   }
   .projects .tiny-headings.types {
