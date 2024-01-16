@@ -11930,6 +11930,12 @@ textarea.form-control-lg {
   color: #252525;
 }
 
+.contact .contact-inputs {
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  color: #252525;
+}
+
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .hero-section .hero-title {
     font-size: 3.25rem;
@@ -12107,6 +12113,24 @@ textarea.form-control-lg {
 }
 .contact .container-fluid .container .row .section-headings {
   margin-bottom: 2rem;
+}
+.contact .container-fluid .container .row .contact-inputs {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgba(37, 37, 37, 0.5);
+  background: none;
+  margin-bottom: 1.375rem;
+  padding: 1.75rem 1rem;
+}
+.contact .container-fluid .container .row .contact-inputs:not(:last-child) {
+  margin-bottom: 0;
+}
+.contact .container-fluid .container .row textarea {
+  height: 200px;
+}
+
+.contact-image picture {
+  margin-top: -18rem;
 }
 
 .hero-section .row {
