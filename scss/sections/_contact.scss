@@ -81,6 +81,10 @@
         .container-fluid {
             .container {
                 .row {
+                    .section-headings {
+                        margin-bottom: 1.25rem;
+                    }
+
                     margin-top: 2rem;
                     padding-top: 2rem;
                     padding-bottom: 2rem;
@@ -110,6 +114,9 @@
 @include media-breakpoint-down (sm) {
     .contact {
         .container-fluid {
+            padding-left: 0;
+            padding-right: 0;
+
             .container {
                 .row {
                     .contact-container {
@@ -123,5 +130,4 @@
     .contact-image {
         display: none;
     }
-
 }

@@ -12163,6 +12163,9 @@ textarea.form-control-lg {
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
+  .contact .container-fluid .container .row .section-headings {
+    margin-bottom: 1.25rem;
+  }
   .contact .container-fluid .container .row .contact-inputs {
     margin-bottom: 1rem;
     padding: 1rem 0.5rem;
@@ -12178,6 +12181,10 @@ textarea.form-control-lg {
   }
 }
 @media (max-width: 575.98px) {
+  .contact .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+  }
   .contact .container-fluid .container .row .contact-container {
     margin-bottom: 0;
   }
