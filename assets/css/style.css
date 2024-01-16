@@ -11936,6 +11936,19 @@ textarea.form-control-lg {
   color: #252525;
 }
 
+.footer .xs-tiny-text {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 300;
+  color: #252525;
+}
+.footer .xxs-tiny-text {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 300;
+  color: rgba(37, 37, 37, 0.8);
+}
+
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .hero-section .hero-title {
     font-size: 3.25rem;
@@ -12190,6 +12203,20 @@ textarea.form-control-lg {
   }
   .contact-image {
     display: none;
+  }
+}
+.footer .container {
+  margin-top: -5rem;
+}
+
+@media (max-width: 767.98px) {
+  .footer .container {
+    margin-top: -3rem;
+  }
+}
+@media (max-width: 575.98px) {
+  .footer .container {
+    margin-top: 3rem;
   }
 }
 .hero-section .row {

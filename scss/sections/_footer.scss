@@ -1,0 +1,25 @@
+@use '../custom' as *;
+
+.footer {
+    .container {
+        margin-top: -5rem;
+    }
+}
+
+@include media-breakpoint-down (md) {
+
+    .footer {
+        .container {
+            margin-top: -3rem;
+        }
+    }
+}
+
+@include media-breakpoint-down (sm) {
+
+    .footer {
+        .container {
+            margin-top: 3rem;
+        }
+    }
+}
