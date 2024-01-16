@@ -12100,9 +12100,13 @@ textarea.form-control-lg {
 .contact .container-fluid {
   background-color: rgba(31, 173, 218, 0.12);
 }
-.contact .container .row {
+.contact .container-fluid .container .row {
+  margin-top: 4.6875rem;
   padding-top: 4.6875rem;
   padding-bottom: 4.6875rem;
+}
+.contact .container-fluid .container .row .section-headings {
+  margin-bottom: 2rem;
 }
 
 .hero-section .row {

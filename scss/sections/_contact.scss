@@ -3,13 +3,18 @@
 .contact {
     .container-fluid {
         background-color: rgba($color: $primary, $alpha: 0.12);
-    }
 
-    .container {
+        .container {
 
-        .row {
-            padding-top: 4.6875rem;
-            padding-bottom: 4.6875rem;
+            .row {
+                margin-top: 4.6875rem;
+                padding-top: 4.6875rem;
+                padding-bottom: 4.6875rem;
+
+                .section-headings {
+                    margin-bottom: 2rem;
+                }
+            }
         }
     }
 }
