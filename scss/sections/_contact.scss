@@ -1,0 +1,15 @@
+@use '../custom' as *;
+
+.contact {
+    .container-fluid {
+        background-color: rgba($color: $primary, $alpha: 0.12);
+    }
+
+    .container {
+
+        .row {
+            padding-top: 4.6875rem;
+            padding-bottom: 4.6875rem;
+        }
+    }
+}

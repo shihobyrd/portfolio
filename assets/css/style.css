@@ -12097,6 +12097,14 @@ textarea.form-control-lg {
     margin-bottom: 0.25rem;
   }
 }
+.contact .container-fluid {
+  background-color: rgba(31, 173, 218, 0.12);
+}
+.contact .container .row {
+  padding-top: 4.6875rem;
+  padding-bottom: 4.6875rem;
+}
+
 .hero-section .row {
   padding-top: 4.5rem;
 }
