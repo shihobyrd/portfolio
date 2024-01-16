@@ -153,6 +153,13 @@
             line-height: 2.125rem;
         }
     }
+
+    .contact {
+        .contact-inputs {
+            font-size: 1rem;
+            line-height: 1.75rem;
+        }
+    }
 }
 
 @include media-breakpoint-only (sm) {

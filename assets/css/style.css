@@ -11997,6 +11997,10 @@ textarea.form-control-lg {
     font-size: 1.75rem;
     line-height: 2.125rem;
   }
+  .contact .contact-inputs {
+    font-size: 1rem;
+    line-height: 1.75rem;
+  }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
   .hero-section .hero-title {
@@ -12122,17 +12126,65 @@ textarea.form-control-lg {
   margin-bottom: 1.375rem;
   padding: 1.75rem 1rem;
 }
-.contact .container-fluid .container .row .contact-inputs:not(:last-child) {
-  margin-bottom: 0;
-}
-.contact .container-fluid .container .row textarea {
+.contact .container-fluid .container textarea {
   height: 200px;
 }
 
-.contact-image picture {
+.contact-image {
   margin-top: -18rem;
 }
 
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .contact .container-fluid .container .row {
+    margin-top: 3.125rem;
+    padding-top: 3.125rem;
+    padding-bottom: 3.125rem;
+  }
+  .contact-image {
+    margin-top: -17rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .contact .container-fluid .container .row {
+    margin-top: 2.5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+  .contact .container-fluid .container .row .contact-container {
+    margin-bottom: 5rem;
+  }
+  .contact-image {
+    margin-top: -12rem;
+  }
+}
+@media (max-width: 767.98px) {
+  .contact .container-fluid .container .row {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .contact .container-fluid .container .row .contact-inputs {
+    margin-bottom: 1rem;
+    padding: 1rem 0.5rem;
+  }
+  .contact .container-fluid .container .row .contact-container {
+    margin-bottom: 3rem;
+  }
+  .contact .container-fluid .container textarea {
+    height: 150px;
+  }
+  .contact-image {
+    margin-top: -9rem;
+  }
+}
+@media (max-width: 575.98px) {
+  .contact .container-fluid .container .row .contact-container {
+    margin-bottom: 0;
+  }
+  .contact-image {
+    display: none;
+  }
+}
 .hero-section .row {
   padding-top: 4.5rem;
 }
