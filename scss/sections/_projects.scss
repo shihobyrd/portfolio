@@ -151,3 +151,13 @@
         }
     }
 }
+
+// - - - - - - - Dark Mode - - - - - - - //
+@include color-mode(dark) {
+    .projects {
+        .filter-btn {
+            color: $white;
+            border-radius: 0;
+        }
+    }
+}

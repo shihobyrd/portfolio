@@ -131,3 +131,31 @@
         display: none;
     }
 }
+
+// - - - - - - - Dark Mode - - - - - - - //
+@include color-mode(dark) {
+
+    .contact {
+        .container-fluid {
+            .container {
+                .row {
+                    margin-top: 4.6875rem;
+                    padding-top: 4.6875rem;
+                    padding-bottom: 4.6875rem;
+
+                    .section-headings {
+                        margin-bottom: 2rem;
+                    }
+
+                    .contact-inputs {
+                        color: $white;
+                    }
+
+                    ::placeholder {
+                        color: rgba($color: $white, $alpha: .8);
+                    }
+                }
+            }
+        }
+    }
+}
