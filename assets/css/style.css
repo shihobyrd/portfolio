@@ -11855,7 +11855,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.btn {
+.btn-outline-dark {
   cursor: pointer;
   border: 2px solid #19353E;
   border-radius: 0;
@@ -11867,20 +11867,20 @@ textarea.form-control-lg {
   padding: 1.125rem 2rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-.btn:hover {
+.btn-outline-dark:hover {
   color: #fff;
   background-color: #19353E;
   border-color: #19353E;
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .btn {
+  .btn-outline-dark {
     font-size: 0.9rem;
     padding: 1rem 1.25rem;
   }
 }
 @media (max-width: 767.98px) {
-  .btn {
+  .btn-outline-dark {
     font-size: 0.875rem;
     padding: 0.75rem 1rem;
   }

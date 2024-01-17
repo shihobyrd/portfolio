@@ -1,6 +1,6 @@
 @use '../custom' as *;
 
-.btn {
+.btn-outline-dark {
     cursor: pointer;
     border: 2px solid $dark-blue;
     border-radius: 0;
@@ -21,7 +21,7 @@
 
 @include media-breakpoint-only (md) {
 
-    .btn {
+    .btn-outline-dark {
         font-size: .9rem;
         padding: 1rem 1.25rem;
     }
@@ -29,7 +29,7 @@
 
 @include media-breakpoint-down (md) {
 
-    .btn {
+    .btn-outline-dark {
         font-size: .875rem;
         padding: .75rem 1rem;
     }
