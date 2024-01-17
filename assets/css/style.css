@@ -12141,6 +12141,7 @@ textarea.form-control-lg {
 .contact .container-fluid .container .row .contact-inputs {
   width: 100%;
   border: none;
+  border-radius: 0;
   border-bottom: 1px solid rgba(37, 37, 37, 0.5);
   background: none;
   margin-bottom: 1.375rem;
