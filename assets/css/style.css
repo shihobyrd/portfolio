@@ -129,8 +129,8 @@
   color-scheme: dark;
   --bs-body-color: #dee2e6;
   --bs-body-color-rgb: 222, 226, 230;
-  --bs-body-bg: #19353E;
-  --bs-body-bg-rgb: 25, 53, 62;
+  --bs-body-bg: #212529;
+  --bs-body-bg-rgb: 33, 37, 41;
   --bs-emphasis-color: #fff;
   --bs-emphasis-color-rgb: 255, 255, 255;
   --bs-secondary-color: rgba(222, 226, 230, 0.75);
@@ -11855,7 +11855,8 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.btn-outline-dark {
+.btn {
+  cursor: pointer;
   border: 2px solid #19353E;
   border-radius: 0;
   font-size: 1rem;
@@ -11864,16 +11865,22 @@ textarea.form-control-lg {
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   padding: 1.125rem 2rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.btn:hover {
+  color: #fff;
+  background-color: #19353E;
+  border-color: #19353E;
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .btn-outline-dark {
+  .btn {
     font-size: 0.9rem;
     padding: 1rem 1.25rem;
   }
 }
 @media (max-width: 767.98px) {
-  .btn-outline-dark {
+  .btn {
     font-size: 0.875rem;
     padding: 0.75rem 1rem;
   }
@@ -12030,44 +12037,6 @@ textarea.form-control-lg {
 @media (max-width: 460px) {
   .hero-section .hero-title {
     max-width: 15rem;
-  }
-}
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #19353E;
-  }
-  .hero-section .hero-title {
-    color: #fff;
-  }
-  .hero-section .hero-text {
-    color: #fff;
-  }
-  .section-headings {
-    color: #fff;
-  }
-  .section-text {
-    color: #fff;
-  }
-  .sub-headings {
-    color: #fff;
-  }
-  .tiny-headings {
-    color: #1FADDA;
-  }
-  .tiny-text {
-    color: #fff;
-  }
-  .projects .tiny-headings {
-    color: #fff;
-  }
-  .contact .contact-inputs {
-    color: #fff;
-  }
-  .footer .xs-tiny-text {
-    color: #fff;
-  }
-  .footer .xxs-tiny-text {
-    color: rgba(255, 255, 255, 0.8);
   }
 }
 .about .container {
@@ -12243,22 +12212,21 @@ textarea.form-control-lg {
     display: none;
   }
 }
-@media (prefers-color-scheme: dark) {
-  .contact .container-fluid .container .row {
-    margin-top: 4.6875rem;
-    padding-top: 4.6875rem;
-    padding-bottom: 4.6875rem;
-  }
-  .contact .container-fluid .container .row .section-headings {
-    margin-bottom: 2rem;
-  }
-  .contact .container-fluid .container .row .contact-inputs {
-    color: #fff;
-  }
-  .contact .container-fluid .container .row ::placeholder {
-    color: rgba(255, 255, 255, 0.8);
-  }
+[data-bs-theme=dark] .contact .container-fluid .container .row {
+  margin-top: 4.6875rem;
+  padding-top: 4.6875rem;
+  padding-bottom: 4.6875rem;
 }
+[data-bs-theme=dark] .contact .container-fluid .container .row .section-headings {
+  margin-bottom: 2rem;
+}
+[data-bs-theme=dark] .contact .container-fluid .container .row .contact-inputs {
+  color: #fff;
+}
+[data-bs-theme=dark] .contact .container-fluid .container .row ::placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
 .footer .container {
   margin-top: -5rem;
 }
@@ -12282,11 +12250,6 @@ textarea.form-control-lg {
 @media (max-width: 575.98px) {
   .footer .container {
     margin-top: 3rem;
-  }
-}
-@media (prefers-color-scheme: dark) {
-  .footer li a {
-    color: #fff;
   }
 }
 .hero-section .row {
@@ -12337,11 +12300,6 @@ textarea.form-control-lg {
     margin-top: -7rem;
   }
 }
-@media (prefers-color-scheme: dark) {
-  .hero-section .divider {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  }
-}
 .menu li a {
   font-size: 1.125rem;
   color: #252525;
@@ -12373,14 +12331,6 @@ textarea.form-control-lg {
 @media (max-width: 767.98px) {
   .navbar-brand {
     font-size: 1.75rem;
-  }
-}
-@media (prefers-color-scheme: dark) {
-  .menu li a {
-    color: #fff;
-  }
-  .navbar-brand {
-    color: #fff;
   }
 }
 .projects .container {
@@ -12486,11 +12436,9 @@ textarea.form-control-lg {
     padding-top: 1rem;
   }
 }
-@media (prefers-color-scheme: dark) {
-  .projects .filter-btn {
-    color: #fff;
-    border-radius: 0;
-  }
+[data-bs-theme=dark] .projects .filter-btn {
+  color: #fff;
+  border-radius: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

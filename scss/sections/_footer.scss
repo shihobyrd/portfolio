@@ -40,13 +40,13 @@
 }
 
 
-// - - - - - - - Dark Mode - - - - - - - //
-@include color-mode(dark) {
-    .footer {
-        li {
-            a {
-                color: $white;
-            }
-        }
-    }
-}
+// // - - - - - - - Dark Mode - - - - - - - //
+// @include color-mode(dark) {
+//     .footer {
+//         li {
+//             a {
+//                 color: $white;
+//             }
+//         }
+//     }
+// }

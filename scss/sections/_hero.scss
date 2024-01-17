@@ -78,12 +78,12 @@
     }
 }
 
-// - - - - - - - Dark Mode - - - - - - - //
-@include color-mode(dark) {
-    .hero-section {
-        .divider {
-            border-bottom: 1px solid rgba($color: $white, $alpha: .5);
-        }
+// // - - - - - - - Dark Mode - - - - - - - //
+// @include color-mode(dark) {
+//     .hero-section {
+//         .divider {
+//             border-bottom: 1px solid rgba($color: $white, $alpha: .5);
+//         }
 
-    }
-}
+//     }
+// }

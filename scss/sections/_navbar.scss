@@ -41,17 +41,17 @@
     }
 }
 
-// - - - - - - - Dark Mode - - - - - - - //
-@include color-mode(dark) {
-    .menu {
-        li {
-            a {
-                color: $white;
-            }
-        }
-    }
+// // - - - - - - - Dark Mode - - - - - - - //
+// @include color-mode(dark) {
+//     .menu {
+//         li {
+//             a {
+//                 color: $white;
+//             }
+//         }
+//     }
 
-    .navbar-brand {
-        color: $white;
-    }
-}
+//     .navbar-brand {
+//         color: $white;
+//     }
+// }

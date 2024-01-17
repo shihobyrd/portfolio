@@ -208,61 +208,61 @@
     }
 }
 
-// - - - - - - - Dark Mode - - - - - - - //
-@include color-mode(dark) {
-    body {
-        background-color: $dark-blue;
-    }
+// // - - - - - - - Dark Mode - - - - - - - //
+// @include color-mode(dark) {
+//     body {
+//         background-color: $dark-blue;
+//     }
 
-    .hero-section {
-        .hero-title {
-            color: $white;
-        }
+//     .hero-section {
+//         .hero-title {
+//             color: $white;
+//         }
 
-        .hero-text {
-            color: $white;
-        }
-    }
+//         .hero-text {
+//             color: $white;
+//         }
+//     }
 
-    .section-headings {
-        color: $white;
-    }
+//     .section-headings {
+//         color: $white;
+//     }
 
-    .section-text {
-        color: $white;
-    }
+//     .section-text {
+//         color: $white;
+//     }
 
-    .sub-headings {
-        color: $white;
-    }
+//     .sub-headings {
+//         color: $white;
+//     }
 
-    .tiny-headings {
-        color: $primary;
-    }
+//     .tiny-headings {
+//         color: $primary;
+//     }
 
-    .tiny-text {
-        color: $white;
-    }
+//     .tiny-text {
+//         color: $white;
+//     }
 
-    .projects {
-        .tiny-headings {
-            color: $white;
-        }
-    }
+//     .projects {
+//         .tiny-headings {
+//             color: $white;
+//         }
+//     }
 
-    .contact {
-        .contact-inputs {
-            color: $white;
-        }
-    }
+//     .contact {
+//         .contact-inputs {
+//             color: $white;
+//         }
+//     }
 
-    .footer {
-        .xs-tiny-text {
-            color: $white;
-        }
+//     .footer {
+//         .xs-tiny-text {
+//             color: $white;
+//         }
 
-        .xxs-tiny-text {
-            color: rgba($color: $white, $alpha: .8);
-        }
-    }
-}
+//         .xxs-tiny-text {
+//             color: rgba($color: $white, $alpha: .8);
+//         }
+//     }
+// }
